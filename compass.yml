@@ -1,0 +1,17 @@
+name: sj-ai-guardrails-lite-server
+id: ari:cloud:compass:ae9ec5f8-e892-4eda-9314-548dfad7b7fb:component/2b2df9d4-8719-41e2-ab56-c6f02232532a/000b3a1f-5ffc-42de-8bd8-ac9927e9fbae
+description: A bare minimum deployment of guardrails as a service.
+configVersion: 1
+typeId: SERVICE
+fields:
+  tier: 4
+links:
+  - name: null
+    type: REPOSITORY
+    url: https://github.com/kitabisa/sj-ai-guardrails-lite-server
+relationships:
+  DEPENDS_ON: []
+labels:
+  - source:github
+  - synced-with-jsm
+customFields: null
